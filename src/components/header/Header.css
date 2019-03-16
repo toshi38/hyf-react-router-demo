@@ -1,0 +1,21 @@
+.Header {
+  background-color: rgba(0,0,0,0.87);
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navlink {
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.active {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 10px;
+}
